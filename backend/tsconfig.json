@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "lib": ["es2017", "DOM"],
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "target": "es2017",
+      "allowJs": true,
+      "module": "commonjs",
+      "experimentalDecorators": true
+    },
+    "include": ["index.ts"],
+    "exclude": [
+      "node_modules/**/*",
+      ".serverless/**/*",
+      ".webpack/**/*",
+      "_warmup/**/*",
+      ".vscode/**/*"
+    ],
+    "ts-node": {
+      "require": ["tsconfig-paths/register"]
+    }
+  }
+  
+  
